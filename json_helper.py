@@ -14,7 +14,6 @@ def read_json(filepath):
         data = json.load(file_object)
     return data
 
-
 # Part B Directions:
     # Define a function called read_all_json_files.
     # Given a string representing a path to a directory,
@@ -57,3 +56,20 @@ def load_pickle(picklefilepath):
     with open(f'{picklefilepath}.pickle', 'rb') as pickle_file:
         data = pickle.load(pickle_file)
     print(data)
+
+
+
+
+#Exercise 2
+
+data = [{
+    "name": "Wolverine",
+    "neutral_special": "Bone Claw",
+    "side_special": "Healing",
+    "up_special": "Super Claw Attack",
+    "down_special": "Leap Attack",
+    "final_smash": "Wolverine Finale"
+}]
+
+with open('data/marvel/wolverine.txt', 'w') as newfile:
+    json.dump (data, newfile)
