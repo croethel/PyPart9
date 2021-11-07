@@ -71,5 +71,5 @@ data = [{
     "final_smash": "Wolverine Finale"
 }]
 
-with open('data/marvel/wolverine.txt', 'w') as newfile:
+with open('data/marvel/wolverine.json', 'w') as newfile:
     json.dump (data, newfile)
