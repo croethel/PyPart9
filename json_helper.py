@@ -62,14 +62,14 @@ def load_pickle(picklefilepath):
 
 #Exercise 2
 
-data = [{
+data = {
     "name": "Wolverine",
     "neutral_special": "Bone Claw",
     "side_special": "Healing",
     "up_special": "Super Claw Attack",
     "down_special": "Leap Attack",
     "final_smash": "Wolverine Finale"
-}]
+}
 
 with open('data/marvel/wolverine.json', 'w') as newfile:
     json.dump (data, newfile)
