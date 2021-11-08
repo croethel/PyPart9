@@ -7,7 +7,7 @@ import pickle
     # Given a string representing a file path to a json file,
     # this function should open said file and covert its contents into a json object.
     # The json object should be returned.
-    # Part A test: def read_json(/Users/roethelchristine/dev/PyPart9/data/super_smash_bros/link.json)
+    # Part A test: read_json(/Users/roethelchristine/dev/PyPart9/data/super_smash_bros/link.json)
 
 def read_json(filepath):
     with open(filepath, 'r') as file_object:

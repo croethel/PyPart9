@@ -1,8 +1,1 @@
-{
-  "name": "Wolverine",
-  "neutral_special": "Bone Claw",
-  "side_special": "Healing",
-  "up_special": "Super Claw Attack",
-  "down_special": "Leap Attack",
-  "final_smash": "Wolverine Finale"
-}
+{"name": "Wolverine", "neutral_special": "Bone Claw", "side_special": "Healing", "up_special": "Super Claw Attack", "down_special": "Leap Attack", "final_smash": "Wolverine Finale"}
